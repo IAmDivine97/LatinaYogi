@@ -1,2 +1,2 @@
 # hello-world
- This repository is for practicing the GitHub Flow.
+This respository was my final project for SheCodes Basics Certification. 
