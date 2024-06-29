@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yoga 🧘🏽‍♀️</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: palevioletred;
+        }
+        h2 {
+            text-align: center;
+            border: 1px solid palevioletred;
+            padding: 20px;
+            font-size: 18px;
+            border-radius: 4x;
+        }
+        img {
+            display: block;
+            margin: auto;
+            max-width: 80%;
+            border-radius: 10px;
+        }
+        p {
+            line-height: 1.5;
+            font-size: 13px; 
+        }
+        button {
+            display: block;
+            margin: 20px auto;
+            background: palevioletred; 
+            color: white;
+            font-size: 18px;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 6px;
+            box-shadow: 5px 5px 10px rgba(0,0, 0,0.3);
+            transition: all 200ms ease-in-out;
+        }
+
+        button:hover{
+            opacity: 0.9;
+            cursor: pointer;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto; 
+            padding: 30px 60px;
+        }
+        .learn-more {
+           font-size: 11px;
+            color: palevioletred;
+            text-decoration: none;
+        }
+
+        .learn-more:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            text-align: center;
+
+        }
+        .message {
+        text-align: center;
+        font-size: 13px;
+        }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container">;
+      <h1>
+        Yoga Lover
+    </h1>
+    <h2>Mindfulness, Movement, Meditation</h2>
+    <img
+      src="https://png.pngtree.com/background/20220722/original/pngtree-sunset-yoga-picture-image_1715277.jpg"
+      alt="Yoga"
+      width="300"
+    />
+    <p>
+      Yoga is an ancient and complex practice, rooted in Indian philosophy. It
+      began as a spiritual practice but has become popular as a way of promoting
+      physical and mental well-being.
+    </p>
+    </br>
+    <a 
+       href="https://www.nccih.nih.gov/health/yoga-what-you-need-to-know"
+    target="_blank"
+    class="learn-more"
+    >
+        Learn more on NIH
+    </a>
+    <button class="yoga-button">
+       <strong> Yoga Classes </strong>
+    </button>
+    <p class="footer">
+    This page was built by 
+      <a href="file:///Users/sofiaguzman/Desktop/yoga.html" target="_blank">
+    Sofia Guzman
+      </a>
+    </p>
+
+    <hr />
+
+    
+</div>
+  <script>
+    function yoga() { 
+    let name = prompt("What is your name?");
+    let email = prompt("What is your email address?");
+     
+    if(name && email) {
+    alert("Thank you, " + name + "! We'll be in touch by email with the yoga schedule!🧘🏽‍♀️");
+    }
+  }
+    let yogaButton = document.querySelector(".yoga-button");
+    yogaButton.addEventListener("click", yoga);
+  </script>
+  <div class= "message"> <br>
+      <span class= "greeting"> Email:</span>
+      Hello@shecodes.io </span>
+      <span class="greeting">Instagram:</span> 
+      @shecodes.io </span>
+ </body>
+</html>
